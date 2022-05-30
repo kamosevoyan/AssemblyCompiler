@@ -1,0 +1,14 @@
+mov r0 0
+mov r1 1
+mov r2 0
+
+const max 255
+loop:
+	
+	add r0 r1 r2
+	mov r7 r2
+	
+	mov r0 r1
+	mov r1 r2
+	
+	cmp leq r2 max loop
